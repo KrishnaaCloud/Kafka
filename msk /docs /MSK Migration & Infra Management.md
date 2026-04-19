@@ -87,3 +87,10 @@ To resolve data ordering issues for downstream consumers (Airflow DAGs), I succe
 - `/connectors`: Hardened JSON configurations for MSK JDBC Source Connectors.
 - `/scripts`: Custom Bash orchestration suite for staggered execution.
 - `/docs`: Technical deep-dives and migration strategy documents.
+
+## Repository Directory Structure
+
+- **[Connectors](./connectors/)**: Production-ready configuration files for MSK JDBC Source Connectors.
+- **[Automation Script](./scripts/stagger_pulse.sh)**: Custom Bash orchestration suite for staggered pulse ingestion.
+- **[Technical Docs](./docs/)**: Detailed architectural and security deep-dives.
+
