@@ -69,7 +69,7 @@ gantt
 
 ### Operational Logic
 1. **Quiescent State**: Connectors are locked with a `poll.interval.ms` of 12 hours.
-2. **Scheduled Trigger**: System Cron initiates the `stagger_pulse.sh` script twice daily.
+2. **Scheduled Trigger**: System Cron initiates the `stagger_pulse.sh` script twice daily. [`stagger_pulse.sh`](./msk/Scripts/stagger_pulse.sh)
 3. **Automated Restart**: The script forces a `POST /restart` for each task with a **300-second sleep** between activations to spread database load evenly.
 
 ---
@@ -87,10 +87,4 @@ To resolve data ordering issues for downstream consumers (Airflow DAGs), I succe
 - `/connectors`: Hardened JSON configurations for MSK JDBC Source Connectors.
 - `/scripts`: Custom Bash orchestration suite for staggered execution.
 - `/docs`: Technical deep-dives and migration strategy documents.
-
-## Repository Directory Structure
-
-- **[Connectors](./connectors/)**: Production-ready configuration files for MSK JDBC Source Connectors.
-- **[Automation Script](./scripts/stagger_pulse.sh)**: Custom Bash orchestration suite for staggered pulse ingestion.
-- **[Technical Docs](./docs/)**: Detailed architectural and security deep-dives.
 
