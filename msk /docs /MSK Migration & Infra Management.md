@@ -5,7 +5,8 @@ As the Lead Architect for the organization-wide transition from legacy Kafka to 
 
 ---
 ### 1. Stakeholder Coordination
-I led weekly syncs with three primary teams to define the migration roadmap:
+I led weekly syncs with three multiple teams to define the migration roadmap:
+- **Application Teams**: Managed the end-to-end synchronization of data consumption logic with the new MSK single-partition FIFO topic architecture.
 - **Database Team**: Audited source views to ensure indices were optimized for timestamp-based ingestion.
 - **Airflow (App) Team**: Coordinated offset resets to ensure continuous data processing during the topic cutovers.
 - **DevOps/Infrastructure**: Defined the IAM Roles and cross-account access policies for Secrets Manager.
