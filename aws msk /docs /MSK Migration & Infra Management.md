@@ -83,7 +83,7 @@ To resolve data ordering issues for downstream consumers (Airflow DAGs), I succe
 
 ---
 
-### [5### [4. Observability & Management: AKHQ & REST Proxy]([./docs/observability.md](https://github.com/KrishnaaCloud/aws-msk-kafka-platform/blob/7a46c03a973f2149b3263c3dd6c7d9dfaa477efa/aws%20msk%20/docs%20/observability.md))
+### [5. Observability & Management: AKHQ & REST Proxy](https://github.com/KrishnaaCloud/aws-msk-kafka-platform/blob/7a46c03a973f2149b3263c3dd6c7d9dfaa477efa/aws%20msk%20/docs%20/observability.md)
 Centralized monitoring and HTTP-based connectivity layer for real-time visibility into topic throughput and consumer health.. Observability & Management: AKHQ & REST Proxy](./docs/observability.md)
 Centralized monitoring and HTTP-based connectivity layer for real-time visibility into topic throughput and consumer health.
 
