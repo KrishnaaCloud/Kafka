@@ -1,6 +1,6 @@
 # Observability & Management Layer
 
-## AKHQ (Kafka Operations UI)
+## 1.AKHQ (Kafka Operations UI)
 To avoid manual CLI-based monitoring, I managed the deployment of **AKHQ** as our primary visual operations dashboard.
 
 ### Key Capabilities:
@@ -10,7 +10,7 @@ To avoid manual CLI-based monitoring, I managed the deployment of **AKHQ** as ou
 
 ---
 
-## Kafka REST Proxy
+## 2.Kafka REST Proxy
 I implemented the **Confluent REST Proxy** to bridge the gap between our MSK cluster and non-native Kafka applications within the organization.
 
 ### Why we included it:
